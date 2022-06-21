@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puppy Adoption Form</title>
+</head>
+<body>
+    <h1>Adopt a furry companion today</h1>
+    <h4>Please fill out the form below</h4>
+    <form>
+        <div>
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName">
+        </div>
+        <div>
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName">
+        </div>
+        <div>
+            <label for="date">Select Date to visit:</label>
+            <input type="date" name="" id="date">
+        </div>
+        <div>
+            <label for="num_pets">How many pets would you like to adopt:</label>
+            <input type="number" name="" id="num_pets">
+        </div>
+        <div>
+            <label for="reasons">Reasons for adopting:</label><br>
+            <textarea name="" id="reasons" cols="30" rows="3"></textarea>
+        </div>
+        <div>
+            <label for="color">What color of pet collar would you like?</label>
+            <input type="color" name="" id="color">
+        </div>
+        <div>
+            <label for="location">What location will you be visiting?</label>
+            <select name="" id="location">
+                <option value="">San Francisco</option>
+                <option value="">Los Angeles</option>
+                <option value="">San Bernadino</option>
+            </select>
+        </div>
+        <div>
+            <p>Choose your age range:</p>
+            <input type="radio" name="age_range" id="1">
+            <label for="1">18-40</label>
+            <input type="radio" name="age_range" id="2">
+            <label for="2">41-60</label>
+            <input type="radio" name="age_range" id="3">
+            <label for="3">61+</label>
+        </div>
+        <div>
+            <p>Please select the types of pets you would like to adopt:</p>
+            <input type="checkbox" name="" id="pets">
+            <label for="Dogs">Dogs</label>
+            <input type="checkbox" name="" id="pets">
+            <label for="Cats">Cats</label>
+            <input type="checkbox" name="" id="pets">
+            <label for="Hampsters">Hampsters</label>
+            <input type="checkbox" name="" id="pets">
+            <label for="Alpacas">Aplacas</label>
+        </div>
+        <div>
+            <input type="submit" value="Schedule Appointment">
+        </div>
+    </form>
+</body>
+</html>
