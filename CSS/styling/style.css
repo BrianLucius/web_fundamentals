@@ -1,0 +1,26 @@
+h1 {
+    background-color: black;
+    color: white;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+h2 {
+    background-color: rebeccapurple;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-style: italic;
+}
+
+h3 {
+    background-color: cornflowerblue;
+    color:navy;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: right;
+    text-decoration: underline;
+
+}
+
+span {
+    color:aqua
+}
