@@ -1,0 +1,32 @@
+/* body { 
+    width: 50%;
+} */
+h1, h2, p, button, div {
+    border: 1px solid red;
+}
+
+h1,h2 {
+    width: 300px;
+}
+
+button {
+    height: 100px;
+    width: 200px;
+    /* box-shadow: 30px 30px 10px 0px blue; */
+}
+
+#like {
+    margin-right: 20px;
+}
+
+div{
+    height: 300px;
+    /* width: 300px; */
+    background-color: blanchedalmond;
+    overflow: scroll;
+    border: 10px outset green;
+    padding: 20px;
+    margin: 30px; 
+    /* border-radius: 50%; */
+    /* width: 100px; */
+}
