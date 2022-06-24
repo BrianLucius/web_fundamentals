@@ -1,0 +1,58 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; 
+    font-family: sans-serif;
+}
+.profile_card {
+    width: 500px;
+    margin: 50px auto ;
+    border: 2px solid lightgray;
+}
+
+.header {
+    height: 50px;
+    background-color: darkcyan;
+}
+
+.header img{
+    height: 60px;
+    position: relative;
+    top: 20px;
+    left: 30px;
+
+}
+
+.name {
+    margin-left: 30px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-size: 28px;
+}
+
+.location {
+    margin-left: 30px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.location img {
+    height: 14px;
+    margin-right: 7px;
+    padding-left: 2px;
+}
+
+.job-title {
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.edit_profile {
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.edit_profile img {
+    height: 15px;
+    margin-right: 7px;
+}
