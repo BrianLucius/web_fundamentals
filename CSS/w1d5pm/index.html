@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile - Rob's Version</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="nav-bar">
+        <ul id="nav-left">
+            <li><h1>Profile</h1></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">My Profile</a></li>
+            <li><a href="#">Find Connections</a></li>
+        </ul>
+        <button id="sign-out-button">Sign Out</button>
+    </div>
+    <div id="main">
+        <div class="col-left">
+            <div class="profile-card">
+                <div id="profile-card-header">
+                    <img id="avatar" src="./images/jane-m.jpg" alt="">
+                </div>
+                <div id="profile-card-body">
+                    <h2>Jane Doe</h2>
+                    <img src="./icons/map-marker.png" alt="">
+                    <span>Seattle</span>
+                    <p>Developer | Engineer | Problem Solver</p>
+                    <p>Master of shadows and the Internet.</p>
+                    <a href="#"><img src="./icons/gear.png" alt="">edit profile</a>
+                </div>
+            </div>
+            <div class="education-card">
+                <div class="card-header">
+                    <p>Education</p>
+                </div>
+                <div class="card-body">
+                    <h3>Coding Dojo - Full Stack Bootcamp</h3>
+                    <p id="dates">Dec 2019 - Mar 2020</p>
+                    <p>Triple black belt in python, MERN, and C#...</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-right">
+            <div class="requests">
+                <div class="card-header">
+                    <span class="count">2</span>
+                    <span>Connection Requests</span>
+                </div>
+                <div class="card-body">
+                    <div class="person">
+                            <img class="thumbnail" src="./images/todd-s.jpg" alt="">
+                            <span>Todd E.</span>
+                            <img class="actions" src="./icons/accept-circle.png" alt="">
+                            <img class="actions" src="./icons/close-circle.png" alt="">
+                    </div>
+                    <div class="person">
+                            <img class="thumbnail" src="./images/phil-s.jpg" alt="">
+                            <span>Phil K.</span>
+                            <img class="actions" src="./icons/accept-circle.png" alt="">
+                            <img class="actions" src="./icons/close-circle.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="connections">
+                <div class="card-header">
+                    <span class="count">500+</span>
+                    <span>Your Connections</span>
+                </div>
+                <div class="card-body">
+                    <div class="person-connection">
+                            <img class="thumbnail" src="./images/adrien-s.jpg" alt="">
+                            <span>Adrien D.</span>
+                    </div>
+                    <div class="person-connection">
+                            <img class="thumbnail" src="./images/anne-s.jpg" alt="">
+                            <span>Anne J.</span>
+                    </div>
+                    <div class="person-connection">
+                        <img class="thumbnail" src="./images/alayne-s.jpg" alt="">
+                        <span>Alayne T.</span>
+                    </div>
+                    <div class="person-connection">
+                        <img class="thumbnail" src="./images/arry-s.jpg" alt="">
+                        <span>Arry Y.</span>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <a href="#">View More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
