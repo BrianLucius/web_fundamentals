@@ -16,7 +16,7 @@ for (var i=1; i<=100; i++) {
 }
 
 //solution 2 - preferred approach
-for (i=1; i<=100; i++) {
+for (var i=1; i<=100; i++) {
     var output = "";
     if (i % 3 == 0) {
         output+="Fizz";
