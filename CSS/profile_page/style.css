@@ -1,0 +1,149 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    background-color: black;
+    color: whitesmoke;
+    padding: 20px 250px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar h1 {
+    padding-right: 30px;
+}
+
+.navbar-left {
+    width: 500px;
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+.navbar-left a {
+    text-decoration: none;
+    color: darkgray;
+    margin-right: 20px;
+}
+
+.navbar-left #selected {
+    color: whitesmoke;
+    font-weight: bolder;
+}
+
+#sign-out-button {
+    background-color: darkcyan;
+    border: 0;
+    color: whitesmoke;
+    height: 30px;
+    width: 100px;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.content {
+    padding: 20px 250px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#col1 {
+    flex: 1.8;
+    height: 100px;
+    margin-right: 20px;
+}
+
+#col2{
+    flex: 1;
+    height: 100px;
+}
+
+.profile-card, .data-card {
+    margin-bottom: 20px;
+}
+
+.profile-card-header {
+    background-color: darkcyan;
+    height: 100px;
+}
+
+#profile-card-pic {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: relative;
+    top: 50px;
+    left: 20px;
+    border: 2px solid whitesmoke;
+    border-color: whitesmoke;
+    box-shadow: 0 0 0 3px lightgray;
+
+}
+.profile-card-content {
+    border: 3px solid darkgrey;
+    border-top: none;
+    padding: 60px 20px 20px 30px;
+    
+}
+
+.profile-card-content img {
+    height: 20px;
+    padding-right: 10px;
+    position: relative;
+    bottom: -3px;
+}
+
+.profile-card-content h1,h3,h4 {
+    padding-bottom: 9px;
+}
+
+.profile-card-content a, .data-card-content a {
+    color: rgb(43,120,228)
+}
+
+.data-card-header {
+    padding: 16px 0 8px 30px;
+    background-color: rgb(51,51,51);
+    color: whitesmoke;
+}
+
+.data-card-content {
+    padding: 10px 20px 15px 30px;
+    border: 3px solid darkgrey;
+    border-top: none;
+}
+
+.data-card-content h2,h3,h4 {
+    padding-bottom: 7px;
+}
+
+#dates {
+    color: gray;
+}
+
+#connection-count {
+    background-color: lightgray;
+    color: rgb(50,50,50);
+    border-radius: 50%;
+    padding: 2px 8px;
+    margin-right: 12px;
+}
+
+.connection-thumb {
+    border-radius: 50%;
+    height: 60px;
+    padding-right: 10px;
+}
+
+.connection-name {
+    width: 110px;
+}
+
+.action-button {
+    height: 40px;
+    padding-right: 10px;
+}

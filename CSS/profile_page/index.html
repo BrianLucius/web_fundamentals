@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar">
+        <h1>Profile</h1>
+        <ul class="navbar-left">
+            <li><a href="#">Home</a></li>
+            <li><a href="#" id="selected">My Profile</a></li>
+            <li><a href="#">Find Connections</a></li>
+        </ul>
+        <button id="sign-out-button">Sign Out</button>
+    </div>
+    <div class="content">
+        <div id="col1">
+            <div class="profile-card">
+                <div class="profile-card-header">
+                    <img id="profile-card-pic" src="./images/jane-m.jpg" alt="Jane Doe profile pic">
+                </div>
+                <div class="profile-card-content">
+                    <h1>Jane Doe</h1>
+                    <h3><img src="./icons/map-marker.png" alt="Map Marker Icon"> Seattle</h3>
+                    <h4>Developer | Engineer | Problem Solver<br>
+                    Master of shadows and the Internet!</h4>
+                    <h3><a href="#"><img src="./icons/gear.png" alt="Gear Icon">edit profile</a></h3>
+                </div>
+            </div>
+            <div class="data-card">
+                <div class="data-card-header">
+                    <h3>Education</h3>
+                </div>
+                <div class="data-card-content">
+                    <h2>Coding Dojo - Full Stack Bootcamp</h2>
+                    <h3 id="dates">Dec 2019 - Mar 2020</h3>
+                    <h3>Tripe black belt in Python, MERN, and C#...</h3>
+                </div>
+            </div>
+        </div>
+        <div id="col2">
+            <div class="data-card">
+                <div class="data-card-header">
+                    <h3><span id="connection-count">2</span>Connection Requests</h3>
+                </div>
+                <div class="data-card-content">
+                    <table>
+                        <tr>
+                            <td><img class="connection-thumb"  src="./images/todd-s.jpg" alt="Connection requests thumbnail"></td>
+                            <td><h2 class="connection-name">Todd E</h2></td>
+                            <td><img class="action-button" src="./icons/accept-circle.png" alt="Connection accept button"></td>
+                            <td><img class="action-button"  src="./icons/close-circle.png" alt="Connection close button"></td>
+                        </tr>
+                        <tr>
+                            <td><img class="connection-thumb"  src="./images/phil-s.jpg" alt="Connection requests thumbnail"></td>
+                            <td><h2 class="connection-name"> Phil K</h2></td>
+                            <td><img class="action-button"  src="./icons/accept-circle.png" alt="Connection accept button"></td>
+                            <td><img class="action-button"  src="./icons/close-circle.png" alt="Connection close button"></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="data-card">
+                <div class="data-card-header">
+                    <h3><span id="connection-count">500+</span>Your Connections</h3>
+                </div>
+                <div class="data-card-content">
+                    <table>
+                        <tr>
+                            <td><img class="connection-thumb"  src="./images/adrien-s.jpg" alt="Connection requests thumbnail"></td>
+                            <td><h2 class="connection-name">Adrien D</h2></td>
+                        </tr>
+                        <tr>
+                            <td><img class="connection-thumb"  src="./images/anne-s.jpg" alt="Connection requests thumbnail"></td>
+                            <td><h2 class="connection-name">Anne J</h2></td>
+                        </tr>
+                        <tr>
+                            <td><img class="connection-thumb"  src="./images/Alayne-s.jpg" alt="Connection requests thumbnail"></td>
+                            <td><h2 class="connection-name">Alayne T</h2></td>
+                        </tr>
+                        <tr>
+                            <td><img class="connection-thumb"  src="./images/Arry-s.jpg" alt="Connection requests thumbnail"></td>
+                            <td><h2 class="connection-name">Arry Y</h2></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="data-card-content">
+                    <a href="#">View More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </body>
+</html>
