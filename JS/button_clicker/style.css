@@ -1,0 +1,103 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; 
+    font-family: sans-serif;
+}
+
+body {
+    padding: 0px 10%;
+}
+
+#navbar {
+    background-color: lightgrey;
+    padding: 25px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#search {
+    color:grey;
+    width: 50%;
+    text-indent: 10px;
+}
+
+#navbarButton {
+    background-color: dodgerblue;
+    color: whitesmoke;
+    padding: 3px 15px;
+    font-weight: bold;
+    font-size: medium;
+    box-shadow: 3px 3px black;
+}
+
+#content {
+    display: flex;
+}
+
+.contentCard {
+    display: flex;
+    border: 2pt solid black;
+    margin-top: 20px;
+    margin-right: 20px;
+    padding: 15px;
+}
+
+#contentLeft {
+    flex: 3;
+}
+
+#contentRight {
+    flex: 1;
+}
+
+#cardLeft {
+    flex: 1;
+    text-align: center;
+    padding: 5px;
+}
+
+#btnLike {
+    background-color:goldenrod;
+    padding: 10px;
+    width: 120px;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 20px;
+    box-shadow: 3px 3px black;
+}
+
+#plural, #partOfSpeech {
+    font-style: italic;
+}
+
+#cardRight {
+    flex: 3;
+    display: table;
+    padding: 5px auto;
+}
+
+#cardRight h3 {
+    padding: 20px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.addDefinitionCard {
+    border: 2pt solid black;
+    margin-top: 20px;
+    padding: 15px;
+}
+
+#centerButton {
+    display: flex;
+    justify-content: center;
+}
+
+#btnAddDefinition {
+    background-color: limegreen;
+    padding: 10px 20px;
+    margin-top: 15px;
+    font-size: medium;
+    font-weight: bold;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojonary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="navbar">
+        <h1>Dojonary</h1>
+        <input id=search type="text" value="Search">
+        <button onclick="logout(this)"" id="navbarButton">Login</button>
+    </div>
+    <div id="content">
+        <div id="contentLeft">
+            <div class="contentCard">
+                <div id="cardLeft">
+                    <h1>ninja</h1>
+                    <h4 id="partOfSpeech">noun</h4>
+                    <h4>Plural: <span id="plural">ninjas</span></h4>
+                    <button onclick="alert('Ninja was liked')" id="btnLike">13 Likes</button>
+                </div>
+                <div id="cardRight">
+                    <h3>A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></h3>
+                </div>
+            </div>
+            <div class="contentCard">
+                <div id="cardLeft">
+                    <h1>ninja</h1>
+                    <h4 id="partOfSpeech">noun</h4>
+                    <h4>Plural: <span id="plural">ninjas</span></h4>
+                    <button onclick="alert('Ninja was liked')" id="btnLike">37 Likes</button>
+                </div>
+                <div id="cardRight">
+                    <h3>A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus</h3>
+                </div>
+            </div>
+        </div>
+        <div id="contentRight">
+            <div class="addDefinitionCard">
+                <h2>Dojonary is defined by YOU</h2>
+                <div id="centerButton">
+                    <button onclick="removeButton(this)" id="btnAddDefinition">Add Definition</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
