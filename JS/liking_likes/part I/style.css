@@ -1,0 +1,31 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.user-card {
+    border: 3px solid black;
+    /* height: 200px; */
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 20px;
+    font-size: larger;
+}
+
+#user-deets {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    font-size: medium;
+}
+
+#user-deets button {
+    padding: 5px 30px;
+    background-color: goldenrod;
+    font-size: 1.3rem;
+    box-shadow: 3px 3px black;
+}
