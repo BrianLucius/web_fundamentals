@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PuppyGram</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="nav-bar">
+        <h1>PuppyGram</h1>
+        <div>
+            <input type="text" placeholder="Search a puppy name">
+            <button>Search!</button>
+        </div>
+        <button>Login</button>
+    </div>
+    <div id="main">
+        <div id="column-left">
+            <div class="puppy-card">
+                <div class="puppy-left">
+                    <img src="./resources/puppy.jpeg" alt="puppy1">
+                    <h3>Junior</h3>
+                    <em>Male</em>
+                    <p>Breed: <em>Fox</em></p>
+                    <button>10 Likes</button>
+                </div>
+                <div class="puppy-right">
+                    <p>Junior is a very spontaneous, high-energy <a href="#">Fox</a> who loves to eat food.</p>
+                </div>
+            </div>
+            <div class="puppy-card">
+                <div class="puppy-left">
+                    <img src="./resources/beagle.jpeg" alt="puppy2">
+                    <h3>Fluffy</h3>
+                    <em>Female</em>
+                    <p>Breed: <em>Beagle</em></p>
+                    <button>8 Likes</button>
+                </div>
+                <div class="puppy-right">
+                    <p>Fluffy is a quiet, shy, calm <a href="#">Beagle</a> who loves to eat and play fetch.</p>
+                </div>
+            </div>
+        </div>
+        <div id="column-right">
+            <div id="upload">
+                <p>Please upload your pup info to our puppy social media!</p>
+                <button>Upload new Pup!</button>
+            </div>
+            <div id="video-box">
+                <p>Our popular video of the week!</p>
+                <video onmouseover="play(this)" onmouseout="pause(this)" src="./resources/puppy_video.mp4" muted></video>
+                <br>
+                <em>This is Josie, the playful beach dog!</em>
+            </div>
+        </div>
+    </div>
+    <div class="cookie-box">
+        <img src="./resources/caution.jpeg" alt="caution">
+        <p>This site will track all your information and sell it. You will get some dopamine hits from the scrolling tho. Would you like to accept cookies?</p>
+        <button onclick="acceptCookies(this)">Accept Cookies</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,147 @@
+/* CSS Reset */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; 
+}
+
+#nav-bar {
+    /* outline: 3px solid black; */
+    display: flex;
+    /* height: 100px; */
+    padding: 30px 40px;
+    background-color: aquamarine;
+    margin: 0 100px;
+    margin-bottom: 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+#nav-bar input {
+    height: 30px;
+    width: 300px;
+    margin-right: 10px;
+    padding: 0 5px;
+    font-size: 18px;
+}
+
+#nav-bar button {
+    /* height: 30px;
+    width: 90px; */
+    padding: 5px 18px;
+    background-color: goldenrod;
+    box-shadow: 3px 3px black;
+}
+
+#main {
+    display: flex;
+    margin: 0 100px;
+    gap: 15px;
+}
+
+#column-left {
+    /* height: 40px; */
+    /* outline: 1px solid red; */
+    flex: 5;
+}
+
+#column-right {
+    /* height: 40px; */
+    /* outline: 1px solid blue; */
+    flex: 3;
+}
+
+.puppy-card {
+    border: 2px solid darkgray;
+    /* height: 100px; */
+    display: flex;
+    align-items: center;
+    padding: 20px 5px;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.puppy-left {
+    /* outline: 1px solid rebeccapurple; */
+    flex: 2;
+    text-align: center;
+    /* margin-right: 30px; */
+}
+
+.puppy-left img {
+    height: 150px;
+    width: 150px;
+}
+
+.puppy-left h3 {
+    font-size: 30px;
+}
+
+.puppy-left button {
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: seagreen;
+    box-shadow: 3px 3px black;
+    margin-top: 20px;
+}
+
+.puppy-right {
+    /* outline: 1px solid orange; */
+    font-size: 1.5em;
+    flex: 5;
+}
+
+#upload, #video-box {
+    padding: 15px;
+    font-size: 20px;
+    border: 2px solid darkgrey;
+    margin-bottom: 20px;
+}
+
+#upload button {
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: darkorange;
+    box-shadow: 3px 3px black;
+    margin-top: 20px;
+}
+
+#video-box video {
+    width: 350px;
+    margin-top: 15px;
+}
+
+.cookie-box {
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 30px;
+    background-color: grey;
+    font-size: 25px;
+    margin: 0 80px;
+    padding: 0 20px;
+    position: fixed;
+    bottom: 20px;
+}
+
+.cookie-box img {
+    height: 75px;
+    /* opacity: 1; */
+}
+
+.cookie-box p {
+    margin: 30px;
+}
+
+.cookie-box button {
+    background-color: blue;
+    color: white;
+    font-size: 18px;
+    width: 250px;
+    padding: 10px;
+    box-sizing: 3px 3px black;
+}
