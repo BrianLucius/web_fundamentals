@@ -1,3 +1,4 @@
 function acceptCookies(element) {
-    element.classList.remove("cookie-box");
+    var cookieBox = document.getElementById(element);
+    cookieBox.parentNode.removeChild(cookieBox);
 }

@@ -115,7 +115,7 @@ h1 {
     margin-top: 15px;
 }
 
-.cookie-box {
+#cookie-box {
     display: flex;
     align-items: center;
     border: 2px solid black;
@@ -128,16 +128,16 @@ h1 {
     bottom: 20px;
 }
 
-.cookie-box img {
+#cookie-box img {
     height: 75px;
     /* opacity: 1; */
 }
 
-.cookie-box p {
+#cookie-box p {
     margin: 30px;
 }
 
-.cookie-box button {
+#cookie-box button {
     background-color: blue;
     color: white;
     font-size: 18px;
