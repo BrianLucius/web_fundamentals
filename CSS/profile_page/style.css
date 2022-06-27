@@ -125,7 +125,7 @@
     color: gray;
 }
 
-#connection-count {
+#connection-count, #requests-count {
     background-color: lightgray;
     color: rgb(50,50,50);
     border-radius: 50%;
