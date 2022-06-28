@@ -172,6 +172,7 @@ body {
 }
 /* End additional content */
 
+/* Start cookie box */
 #cookieBox {
     display: flex;
     justify-content: center;
@@ -182,12 +183,12 @@ body {
     padding: 20px 30px;
     font-size: 1.5rem;
     gap: 30px;
-    margin: 0 50px;
+    /* margin: 0 50px; */
 
     position: fixed;
     bottom: 20px;
-    /* left: 10%; */
-    /* transform: translate(-50%, 0);  */
+    /* left: 50%;
+    transform: translate(-50%, 0);  */
 }
 
 #cookieBox img {
@@ -201,3 +202,5 @@ body {
     padding: 10px;
     box-shadow: 3px 3px black;
 }
+
+/* End cookie box */
