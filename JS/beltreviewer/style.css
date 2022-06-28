@@ -1,0 +1,203 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0 50px;
+}
+
+/* Start Title Bar */
+#titleBar {
+    /* outline: 2px solid black; */
+    /* height: 100px; */
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo {
+    height: 100px;
+}
+
+#user {
+    height: 60px;
+}
+
+#titleBarLeft, #titleBarRight {
+    display: flex;
+    align-items: center;
+}
+
+#titleBar h1 {
+    font-size: 3.4rem;
+    font-family: cursive;
+}
+
+#titleBarRight > span {
+    font-size: 1.8rem;
+}
+/* End Title Bar */
+
+/* Start Nav Bar */
+#navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    list-style-type: none;
+    font-size: 1.3rem;
+    padding: 10px 10px;
+    border-bottom: 2px solid black;
+}
+
+#navBar a:link{
+    color: black
+}
+
+#navBar img {
+    height: 20px;
+    position: relative;
+    right: 80px;
+    top: 2px;
+}
+
+#navBar input {
+    height: 38px;
+    width: 210px;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+/* End Nav Bar */
+
+/* Begin content */
+#tagLine {
+    text-align: center;
+    font-style: italic;
+    font-size: 2.4rem;
+    padding: 15px 0;
+}
+
+/* Begin players content */
+#players {
+    background-color: coral;
+    border-radius: 35px;
+    padding: 20px 0;
+    margin-bottom: 20px;
+    /* height: 200px; */
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.player {
+    text-align: center;
+}
+
+.player img {
+    height: 120px;
+}
+/* End players content */
+
+/* Begin additional content */
+#content {
+    display: flex;
+    gap: 20px;
+    /* justify-content: space-between; */
+}
+
+#contentLeft {
+    flex: 1;
+}
+
+#contentRight {
+    flex: 2;
+    display: flex;
+}
+
+#tryNow {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    font-size: 2rem;
+    background-color: coral;
+    border-radius: 20px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+#tryNow img {
+    height: 60px;
+    width: 100px;
+}
+
+#contentLeft > img {
+    height: 300px;
+}
+
+#contentRight > img {
+    height 300px;
+    width: 400px;
+}
+
+#learn {
+    background-color: coral;
+    text-align: center;
+    padding: 150px 50px;
+    font-size: 1.8rem;
+}
+
+#learn button {
+    padding: 10px 30px;
+    border-radius: 20px;
+    background-color: burlywood;
+    margin-top: 20px;
+    box-shadow: 3px 3px black;
+}
+
+#termsOfService {
+    background-color: lightgrey;
+    border: 1px solid black;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+#termsOfService h4 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+/* End additional content */
+
+#cookieBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 3px solid black;
+    background-color: goldenrod;
+    padding: 20px 30px;
+    font-size: 1.5rem;
+    gap: 30px;
+    margin: 0 50px;
+
+    position: fixed;
+    bottom: 20px;
+    /* left: 10%; */
+    /* transform: translate(-50%, 0);  */
+}
+
+#cookieBox img {
+    height: 80px;
+}
+
+#cookieBox button {
+    background-color: blue;
+    color:whitesmoke;
+    font-size: 1rem;
+    padding: 10px;
+    box-shadow: 3px 3px black;
+}
