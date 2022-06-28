@@ -27,11 +27,20 @@
                     <img id="profile-card-pic" src="./images/jane-m.jpg" alt="Jane Doe profile pic">
                 </div>
                 <div class="profile-card-content">
-                    <h1>Jane Doe</h1>
+                    <h1 id="userName">Jane Doe</h1>
                     <h3><img src="./icons/map-marker.png" alt="Map Marker Icon"> Seattle</h3>
                     <h4>Developer | Engineer | Problem Solver<br>
                     Master of shadows and the Internet!</h4>
-                    <h3><a href="#" onclick="editProfile(this)"><img src="./icons/gear.png" alt="Gear Icon">edit profile</a></h3>
+                    <!-- <h3><a href="#" onclick="editProfile(this)"><img src="./icons/gear.png" alt="Gear Icon">edit profile</a></h3> -->
+                    <h3><a href="#" id="editProfile"><img src="./icons/gear.png" alt="Gear Icon">edit profile</a></h3>
+                    <div id="editProfileModal" class="modal">
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <p>Update your name:</p>
+                            <input type="text" name="username" id="usernameField">
+                            <button onclick="updateProfile()">Update</button>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="data-card">
