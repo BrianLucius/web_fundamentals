@@ -27,3 +27,10 @@ function changeImg(element) {
     // console.log("changing image", element);
     element.src = "./resources/anothaPuppy.jpeg";
 }
+
+function incrementLike(element) {
+    var likes = document.querySelector(element);
+    var likeCount=+likes.innerText;
+    likeCount+=1;
+    likes.innerText = likeCount;
+}
