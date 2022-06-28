@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div id="nav-bar">
+        <div id="nav-left">
+            <h1>DojoWeather</h1>
+        </div>
+        <div id="nav-right">
+            <ul>
+                <li onmouseover="" style="cursor:pointer;" onclick="alert('Loading weather report for Burbank...')">Burbank</li>
+                <li onmouseover="" style="cursor:pointer;" onclick="alert('Loading weather report for Chicago...')">Chicago</li>
+                <li onmouseover="" style="cursor:pointer;" onclick="alert('Loading weather report for Dallas...')">Dallas</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="content">
+        <div id="title-bar">
+            <h1>San Jose</h1>
+            <div id="title-bar-right">
+                <h3>show temperature in</h3>
+                <select onchange="setTemperatures(this)" name="temperature" id="temperature">
+                    <option value="C">°C</option>
+                    <option value="F">°F</option>
+                </select>
+            </div>
+        </div>
+        <div id="forecast">
+            <div class="daily-card" id="day1">
+                <h2>Today</h2>
+                <img src="./assets/some_rain.png" alt="some rain">
+                <h3>some rain</h3>
+                <div class="temps">
+                    <h2 class="high-temp"><span class="ht">24</span>°</h2>
+                    <h2 class="low-temp"><span class="lt">18</span>°</h2>
+                </div>
+            </div>
+            <div class="daily-card" id="day2">
+                <h2>Tomorrow</h2>
+                <img src="./assets/some_sun.png" alt="some sun">
+                <h3>some sun</h3>
+                <div class="temps">
+                    <h2 class="high-temp"><span class="ht">27</span>°</h2>
+                    <h2 class="low-temp"><span class="lt">19</span>°</h2>
+                </div>
+            </div>
+            <div class="daily-card" id="day3">
+                <h2>Friday</h2>
+                <img src="./assets/some_clouds.png" alt="some clouds">
+                <h3>some clouds</h3>
+                <div class="temps">
+                    <h2 class="high-temp"><span class="ht">21</span>°</h2>
+                    <h2 class="low-temp"><span class="lt">16</span>°</h2>
+                </div>
+            </div>
+            <div class="daily-card" id="day4">
+                <h2>Saturday</h2>
+                <img src="./assets/some_sun.png" alt="some sun">
+                <h3>some sun</h3>
+                <div class="temps">
+                    <h2 class="high-temp"><span class="ht">26</span>°</h2>
+                    <h2 class="low-temp"><span class="lt">21</span>°</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="cookie-time">
+        <img src="./assets/cookie.png" alt="cookie">
+        <div id="cookie-text">
+            <h2><b>Stop! Cookie time</b></h2>
+            <h3>We use cookies (sadly not the edible ones to personalize content and ads, to provide social media features and to analyse our traffic. <a href="#">Read more...</a></h3>
+        </div>
+        <button onclick="acceptCookies()">I Accept</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
