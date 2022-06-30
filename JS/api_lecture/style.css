@@ -1,0 +1,15 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.coin {
+    border: 1px solid black;
+    width: 250px;
+    padding: 10px;
+    background-color: seagreen;
+    color: white;
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+}
