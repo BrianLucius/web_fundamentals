@@ -34,3 +34,10 @@ function incrementLike(element) {
     likeCount+=1;
     likes.innerText = likeCount;
 }
+
+function alertMessageFromInput() {
+    console.log("Connected");
+    var searchInput = document.querySelector("#searchBox");
+    alert("You searched for " + searchInput.value);
+
+}
